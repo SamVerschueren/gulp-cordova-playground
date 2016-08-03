@@ -1,0 +1,30 @@
+{
+  "name": "gulp-cordova-playground",
+  "version": "0.0.0",
+  "description": "gulp-cordova playground",
+  "license": "MIT",
+  "repository": "SamVerschueren/gulp-cordova-playground",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-cordova-create": "^1.3.0"
+  }
+}
